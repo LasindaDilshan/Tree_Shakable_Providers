@@ -1,4 +1,15 @@
-# Treeshakableproviders
+# Treeshakableproviders 
+( @Injectable({
+      providedIn: 'any'
+             })
+)
+
+When inject Services Using  'providedIn: 'any'' we can have multiple singleton multiple instances.
+
+
+![Screenshot 2023-04-11 at 11 45 01 pm](https://user-images.githubusercontent.com/32431966/231185599-65fbaab0-1477-468e-8461-99c4ee478a0f.png)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
 
